@@ -29,6 +29,7 @@
 *.dylib
 
 # Executables
+passhash
 *.exe
 *.out
 *.app
