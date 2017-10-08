@@ -1,1 +1,1 @@
-cmake/Modules/ linguist-vendored
+cmake/Modules/* linguist-vendored
