@@ -1,6 +1,12 @@
 # Build
 
 ## Linux
+Dependencies:
+```
+OpenSSL, GTK3, libsodium
+```
+
+To compile:
 ```
 mkdir build
 cd build
