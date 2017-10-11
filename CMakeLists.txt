@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.6)
+cmake_minimum_required(VERSION 3.2)
 
 project(passhash)
 file(GLOB_RECURSE SOURCES src/*.h src/*.c)
