@@ -12,6 +12,8 @@ if(GTK3_FOUND)
     add_definitions(${GTK3_CFLAGS_OTHER})
     target_Link_libraries(${PROJECT_NAME} ${GTK3_LIBRARIES})
     add_definitions(-DGTK3_FOUND)
+else()
+	set_source_files_properties(src/ui/gtk/window.c PROPERTIES HEADER_FILE_ONLY TRUE)
 endif(GTK3_FOUND)
 
 find_package(OpenSSL REQUIRED)
