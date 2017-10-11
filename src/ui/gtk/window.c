@@ -1,8 +1,8 @@
 #include <gtk/gtk.h>
 #include <string.h>
 #include "window.h"
-#include "../hashing/argon2.h"
-#include "../hashing/evp.h"
+#include "../../hashing/argon2.h"
+#include "../../hashing/evp.h"
 
 struct Window {
     GtkWidget *window; 
